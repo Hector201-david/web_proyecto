@@ -1,373 +1,352 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/estilos.css" />
-  </head>
-  <body>
-    <!--Barra-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light flex-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/estilos.css" />
+</head>
+
+<body>
+  <!--Barra-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light flex-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
-    </nav>
-
-    <!--principal-->
-
-    <header class="page-header gradient">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-5">
-            <h2 data-aos="fade-right">Bienvenido a nuestro sitio web</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-              quaerat officia voluptates nobis, fugit quae repellendus
-              consequuntur a ducimus molestias corrupti quis. Blanditiis, optio!
-              Quaerat dolore cum aut blanditiis odio.
-            </p>
-            <button type="button" class="btn btn-outline-success btn-lg">
-              Success
-            </button>
-            <button type="button" class="btn btn-outline-warning btn-lg">
-              Warning
-            </button>
-          </div>
-          <div class="col-md-5 d-none d-md-block">
-            <img src="./img/Administrador de la liga.png" alt="header image" />
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,128L48,112C96,96,192,64,288,90.7C384,117,480,203,576,208C672,213,768,139,864,144C960,149,1056,235,1152,240C1248,245,1344,171,1392,133.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </header>
-
-    <!-- Sitios -->
-    <section class="icons">
-        <div class="container">
-            <div class="row text-center">
-
-                <div class="col-md-4">
-
-                    <div class="icon gradient md-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
-                            <path
-                                d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z" />
-                        </svg></div>
-
-
-                    <h3>Usuarios Registrados</h3>
-                    <div class="mb-0">
-                        <h2>+200</h2>
-                    </div>
-                </div>
-
-
-
-                <div class="col-md-4">
-
-                    <div class="icon gradient md-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
-                            <path
-                                d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-                            <path
-                                d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
-                        </svg></div>
-
-                    <h3>Visitas al Sitio</h3>
-                    <div class="mb-0">
-                   <h2>+500</h2>                  
-                   </div>
-                </div>
-
-
-
-                <div class="col-md-4">
-
-                    <div class="icon gradient md-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
-                            <path
-                                d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z" />
-                            <path
-                                d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z" />
-                        </svg></div>
-
-                    <h3>Colaboradores</h3>
-                    <div class="mb-0">
-                       <h2>+50</h2>                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-        </div>
     </div>
-</div>
+  </nav>
+  <!--principal-->
 
-
-
-
-
-
-
-
-    <!--DESAROLLO-->
-    <section class="feature gradient">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffff"
-          fill-opacity="1"
-          d="M0,160L48,181.3C96,203,192,245,288,224C384,203,480,117,576,117.3C672,117,768,203,864,213.3C960,224,1056,160,1152,133.3C1248,107,1344,117,1392,122.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-        ></path>
-      </svg>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <img
-              class="d-none d-md-block"
-              src="./img/Soporte del ts dota 2.png"
-              data-aos="zoom-in-down"
-              alt=""
-            />
-          </div>
-          <div class="col-md-6">
-            <h1 class="my-3">Introduccion</h1>
-            <p
-              class="my-4"
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="1500"
-            >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
-              numquam, tempora autem fugiat nam, minus fuga eos magnam delectus
-              inventore nobis iusto, ratione laboriosam. Velit pariatur corporis
-              tenetur possimus veniam!
-            </p>
-
-            <ui>
-              <li data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                Html5
-              </li>
-              <li data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                CSS
-              </li>
-              <li data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                Bootstrap
-              </li>
-              <li data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                Js
-              </li>
-            </ui>
-          </div>
+  <header class="page-header gradient">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-5">
+          <h2 data-aos="fade-right">Bienvenido a nuestro sitio web</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+            quaerat officia voluptates nobis, fugit quae repellendus
+            consequuntur a ducimus molestias corrupti quis. Blanditiis, optio!
+            Quaerat dolore cum aut blanditiis odio.
+          </p>
+          <button type="button" class="btn btn-outline-success btn-lg">
+            Success
+          </button>
+          <button type="button" class="btn btn-outline-warning btn-lg">
+            Warning
+          </button>
+        </div>
+        <div class="col-md-5 d-none d-md-block">
+          <img src="./img/Administrador de la liga.png" alt="header image" />
         </div>
       </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,128L48,112C96,96,192,64,288,90.7C384,117,480,203,576,208C672,213,768,139,864,144C960,149,1056,235,1152,240C1248,245,1344,171,1392,133.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </header>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffff"
-          fill-opacity="1"
-          d="M0,96L48,122.7C96,149,192,203,288,234.7C384,267,480,277,576,261.3C672,245,768,203,864,202.7C960,203,1056,245,1152,256C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
+  <!-- Sitios -->
+  <section class="icons">
+    <div class="container">
+      <div class="row text-center">
+
+        <div class="col-md-4">
+
+          <div class="icon gradient md-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
+              <path
+                d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z" />
+            </svg></div>
+
+
+          <h3>Usuarios Registrados</h3>
+          <div class="mb-0">
+            <h2>+200</h2>
+          </div>
+        </div>
 
 
 
-<!-- GALERIA -->
-<section class="galeria">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 160">
-        <path fill="#fff" fill-opacity="1"
-            d="M0,64L48,69.3C96,75,192,85,288,96C384,107,480,117,576,117.3C672,117,768,107,864,96C960,85,1056,75,1152,74.7C1248,75,1344,85,1392,90.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-        </path>
+        <div class="col-md-4">
+
+          <div class="icon gradient md-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+              <path
+                d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+              <path
+                d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+            </svg></div>
+
+          <h3>Visitas al Sitio</h3>
+          <div class="mb-0">
+            <h2>+500</h2>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4">
+
+          <div class="icon gradient md-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
+              <path
+                d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z" />
+              <path
+                d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z" />
+            </svg></div>
+
+          <h3>Colaboradores</h3>
+          <div class="mb-0">
+            <h2>+50</h2>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!--DESAROLLO-->
+  <section class="feature gradient">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffff" fill-opacity="1"
+        d="M0,160L48,181.3C96,203,192,245,288,224C384,203,480,117,576,117.3C672,117,768,203,864,213.3C960,224,1056,160,1152,133.3C1248,107,1344,117,1392,122.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
     </svg>
     <div class="container">
-        <div class="row">
-            <div class="col-md-10">
-                <h1>Trabajamos para Usted</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias veniam, repellendus quis similique illo ad modi necessitatibus tempore deleniti iure rerum itaque, corporis dolorum harum, vero voluptates reprehenderit fugit?</p>
-            </div>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img class="d-none d-md-block" src="./img/Soporte del ts dota 2.png" data-aos="zoom-in-down" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h1 class="my-3">Introduccion</h1>
+          <p class="my-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
+            numquam, tempora autem fugiat nam, minus fuga eos magnam delectus
+            inventore nobis iusto, ratione laboriosam. Velit pariatur corporis
+            tenetur possimus veniam!
+          </p>
+
+          <ui>
+            <li data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              Html5
+            </li>
+            <li data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              CSS
+            </li>
+            <li data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              Bootstrap
+            </li>
+            <li data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              Js
+            </li>
+          </ui>
+        </div>
+      </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffff" fill-opacity="1"
+        d="M0,96L48,122.7C96,149,192,203,288,234.7C384,267,480,277,576,261.3C672,245,768,203,864,202.7C960,203,1056,245,1152,256C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+
+
+  <!-- GALERIA -->
+  <section class="galeria">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 160">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,64L48,69.3C96,75,192,85,288,96C384,107,480,117,576,117.3C672,117,768,107,864,96C960,85,1056,75,1152,74.7C1248,75,1344,85,1392,90.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <h1>Trabajamos para Usted</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias veniam, repellendus quis similique illo
+            ad modi necessitatibus tempore deleniti iure rerum itaque, corporis dolorum harum, vero voluptates
+            reprehenderit fugit?</p>
+        </div>
+      </div>
+
+      <div class="row my-3 g-3">
+        <div class="col-md-4"><img src="./img/c1.jpg" alt="Galery image" class="img-fluid">
         </div>
 
-        <div class="row my-3 g-3">
-            <div class="col-md-4"><img src="./img/c1.jpg" alt="Galery image" class="img-fluid">
-            </div>
-
-            <div class="col-md-4"><img src="./img/c2.jpg" alt="Galery image" class="img-fluid">
-            </div>
-
-            <div class="col-md-4"><img src="./img/c3.jpg" alt="Galery image" class="img-fluid">
-            </div>
+        <div class="col-md-4"><img src="./img/c2.jpg" alt="Galery image" class="img-fluid">
         </div>
 
-        <div class="row mt-5 justify-content-end">
-            <div class="col-md-2">
-                <button type="button" data-aos-anchor-placement="top-bottom" class="btn btn-outline-secondary">Secondary</button>
-            </div>
+        <div class="col-md-4"><img src="./img/c3.jpg" alt="Galery image" class="img-fluid">
         </div>
+      </div>
+
+      <div class="row mt-5 justify-content-end">
+        <div class="col-md-2">
+          <button type="button" data-aos-anchor-placement="top-bottom"
+            class="btn btn-outline-secondary">Secondary</button>
+        </div>
+      </div>
 
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#fff" fill-opacity="1"
-            d="M0,320L48,309.3C96,299,192,277,288,261.3C384,245,480,235,576,240C672,245,768,267,864,245.3C960,224,1056,160,1152,160C1248,160,1344,224,1392,256L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
+      <path fill="#fff" fill-opacity="1"
+        d="M0,320L48,309.3C96,299,192,277,288,261.3C384,245,480,235,576,240C672,245,768,267,864,245.3C960,224,1056,160,1152,160C1248,160,1344,224,1392,256L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
     </svg>
-</section>
+  </section>
 
-<section class="informacion mt-3">
+  <section class="informacion mt-3">
     <div class="container">
-        <div class="row col-md">
-            <h1>Saludos</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat numquam libero delectus tempora doloremque, voluptas officiis placeat facilis sed provident velit. Veritatis, placeat? Quis quas dolorum veritatis quaerat impedit beatae!</p>
-        </div>
+      <div class="row col-md">
+        <h1>Saludos</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat numquam libero delectus tempora doloremque,
+          voluptas officiis placeat facilis sed provident velit. Veritatis, placeat? Quis quas dolorum veritatis quaerat
+          impedit beatae!</p>
+      </div>
     </div>
-</section>
+  </section>
 
 
-<!---->
+  <!---->
 
 
 
-    <!-- seccion -->
-    <section class="servicios gradient">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ffff" fill-opacity="1"
-                d="M0,256L48,229.3C96,203,192,149,288,112C384,75,480,53,576,80C672,107,768,181,864,218.7C960,256,1056,256,1152,229.3C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-            </path>
-        </svg>
-        <div class="container">
-            <div id="sal" class="row align-items-center justify-content-center ">
-                <div class="col-md-5">
-                    <button type="button" class="btn btn-outline-warning">Warning</button>
+  <!-- seccion -->
+  <section class="servicios gradient">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffff" fill-opacity="1"
+        d="M0,256L48,229.3C96,203,192,149,288,112C384,75,480,53,576,80C672,107,768,181,864,218.7C960,256,1056,256,1152,229.3C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div id="sal" class="row align-items-center justify-content-center ">
+        <div class="col-md-5">
+          <button type="button" class="btn btn-outline-warning">Warning</button>
 
-                    <h1 data-aos="fade-right">Conexion</h1>
-                    <p data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quam assumenda corporis vero delectus aperiam esse voluptate dicta ex reprehenderit dolor, laudantium, quibusdam quas officia odit minima doloribus repellat eaque.</p>
+          <h1 data-aos="fade-right">Conexion</h1>
+          <p data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quam assumenda
+            corporis vero delectus aperiam esse voluptate dicta ex reprehenderit dolor, laudantium, quibusdam quas
+            officia odit minima doloribus repellat eaque.</p>
 
-                </div>
-                <div class="col-md-5" data-aos="fade-left"><img src="./img/coding_.svg" alt=""> </div>
-                <div class="col-md-5" data-aos="fade-right"><img src="./img/marketing.svg" alt=""></div>
-                <div class="col-md-5">
-                    <button type="button" class="btn btn-outline-warning">Warning</button>
-
-                    <h1 data-aos="fade-left">Juegos</h1>
-
-                    <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae ea sequi. Aspernatur ipsam distinctio alias quae blanditiis accusamus repellat explicabo deleniti impedit. Eligendi expedita odio architecto aliquam omnis temporibus.</p>
-
-
-                </div>
-                <div class="col-md-5">
-                    <button type="button" class="btn btn-outline-warning">Warning</button>
-                    <h1 data-aos="fade-right">Y mucho mas..</h1>
-
-                    <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, eum. Magni molestiae quidem ut asperiores vero esse incidunt, corporis exercitationem necessitatibus ipsam optio aut non blanditiis. Nam iusto culpa vel!</p>
-
-                </div>
-                <div class="col-md-5" data-aos="fade-left"><img src="./img/revenue_.svg" alt=""></div>
-
-
-            </div>
         </div>
+        <div class="col-md-5" data-aos="fade-left"><img src="./img/coding_.svg" alt=""> </div>
+        <div class="col-md-5" data-aos="fade-right"><img src="./img/marketing.svg" alt=""></div>
+        <div class="col-md-5">
+          <button type="button" class="btn btn-outline-warning">Warning</button>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ffff" fill-opacity="1"
-                d="M0,256L48,229.3C96,203,192,149,288,112C384,75,480,53,576,80C672,107,768,181,864,218.7C960,256,1056,256,1152,229.3C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-            </path>
-        </svg>
-    </section>
+          <h1 data-aos="fade-left">Juegos</h1>
+
+          <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae ea sequi.
+            Aspernatur ipsam distinctio alias quae blanditiis accusamus repellat explicabo deleniti impedit. Eligendi
+            expedita odio architecto aliquam omnis temporibus.</p>
 
 
-
-    <!-- CONTACTO -->
-    <section class="contacto">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <h1>Contactanos: </h1>
-
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="button" class="btn btn-outline-secondary">Enviar</button>
-                </div>
-                <div class="col-md-5">
-                    <img src="./img/handshake.svg" alt="Contacto img">
-                </div>
-            </div>
         </div>
-    </section>
+        <div class="col-md-5">
+          <button type="button" class="btn btn-outline-warning">Warning</button>
+          <h1 data-aos="fade-right">Y mucho mas..</h1>
 
+          <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, eum. Magni
+            molestiae quidem ut asperiores vero esse incidunt, corporis exercitationem necessitatibus ipsam optio aut
+            non blanditiis. Nam iusto culpa vel!</p>
 
-
-    <div class="gradient">
-        <div class="container-fluid text-center">
-            <span>
-                <p>Todos los Derechos Reservados </p>
-                <a href="https://hdpro.com">HDPro.com</a>
-              </span>
         </div>
+        <div class="col-md-5" data-aos="fade-left"><img src="./img/revenue_.svg" alt=""></div>
+
+
+      </div>
     </div>
 
-    <script src="js/bootstrap.min.js"></script>
-    <!--final-->
-  </body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffff" fill-opacity="1"
+        d="M0,256L48,229.3C96,203,192,149,288,112C384,75,480,53,576,80C672,107,768,181,864,218.7C960,256,1056,256,1152,229.3C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+
+
+  <!-- CONTACTO -->
+  <section class="contacto">
+    <div class="container">
+      <div class="col-md-5">
+        <h1>Contactanos: </h1>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-outline-secondary">Enviar</button>
+      </div>
+      <div class="col-md-5">
+        <img src="./img/handshake.svg" alt="Contacto img">
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="gradient final">
+    <div class="container-fluid text-center">
+
+      <p>Todos los Derechos Reservados </p>
+
+    </div>
+  </div>
+
+  <script src="js/bootstrap.min.js"></script>
+  <!--final-->
+</body>
+
 </html>
-
-
